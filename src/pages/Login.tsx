@@ -25,7 +25,10 @@ const Login = () => {
     console.log("LOGIN ERROR:", error.response?.data);
     alert(error.response?.data?.message || "Invalid credentials");
   }
+
+
 };
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200
