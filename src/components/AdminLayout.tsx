@@ -10,7 +10,7 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="flex min-h-screen bg-gray-100">
-      {/* Sidebar */}
+     
       <aside className="w-64 bg-gradient-to-b from-blue-200 via-purple-200 to-pink-200 p-6">
         <h1 className="text-xl font-bold mb-8">EdTech Admin</h1>
 
@@ -34,9 +34,9 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
         </button>
       </aside>
 
-      {/* Main */}
+     
       <main className="flex-1">
-        {/* Navbar */}
+      
         <header className="bg-white shadow p-4 flex justify-between items-center">
           <h2 className="text-lg font-semibold">Admin Dashboard</h2>
           <span className="text-sm text-gray-500">Welcome Admin 👋</span>
